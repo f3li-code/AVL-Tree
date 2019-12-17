@@ -1,5 +1,5 @@
 #include <iostream>
-#include "header/AVLTree.h"
+#include "../header/AVLTree.h"
 
 using namespace std;
 

@@ -229,8 +229,9 @@ void AVLTree::visualizeTree(ofstream & outFS, Node *n) const{
 */
 
 void AVLTree::print() const{
-    return print(root);
-    cout << endl << endl;
+    print(root);
+    cout << endl;
+    return;
 }
 
 void AVLTree::print(Node* n) const{
